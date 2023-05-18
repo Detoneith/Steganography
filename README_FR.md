@@ -25,3 +25,6 @@ Le canevas est utilisé pour afficher l'image sélectionnée. Lorsqu'on sélecti
 
 ## Boutons
 Les boutons "Encode" et "Decode" permettent d'encoder et de décoder le message dans l'image. Lorsqu'on clique sur "Encode", le message est caché dans l'image et l'image modifiée est affichée sur le canevas. Lorsqu'on clique sur "Decode", le message caché dans l'image est affiché dans le formulaire d'entrée de texte.
+
+# Disclaimer
+**Cette application a été conçue à des fins éducatives uniquement. L'auteur ne tolère ni ne promeut l'utilisation de la stéganographie à des fins illégales ou contraires à l'éthique.**
