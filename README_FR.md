@@ -18,13 +18,13 @@ Pour installer ces modules, utilisez la commande suivante dans le terminal :
 Pour lancer l'application, lancez simplement le fichier steganographie.py. Cela ouvrira une fenêtre d'interface graphique dans laquelle vous pourrez sélectionner une image, saisir un message à encoder ou à décoder et effectuer l'action correspondante à l'aide du bouton "Encoder" ou "Décoder".
 
 ## Menu
-Déposer:
-- Ouvrir : permet d'ouvrir un fichier image au format .jpg ou .png.
-- Enregistrer : Cela vous permet d'enregistrer l'image avec le message encodé sous forme de fichier .png ou .jpg.
-- Quitter : Cela vous permet de quitter l'application.
+File:
+- Open : permet d'ouvrir un fichier image au format .jpg ou .png.
+- Save : Cela vous permet d'enregistrer l'image avec le message encodé sous forme de fichier .png ou .jpg.
+- Exit : Cela vous permet de quitter l'application.
 
-Aider:
-- A propos : affiche des informations sur l'application.
+Help:
+- About : affiche des informations sur l'application.
 
 ## Éléments de l'interface graphique
 **Saisie de message :** C'est ici que vous pouvez saisir le message à encoder ou à décoder.
