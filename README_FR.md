@@ -1,5 +1,8 @@
 # Steganography
 
+## Introduction
+Ce code Python implémente une application graphique simple utilisant les modules tkinter et ttkbootstrap pour la stéganographie. Il offre aux utilisateurs la possibilité d'encoder et de décoder les messages cachés dans une image.
+
 Ce code contient une classe Steganographie qui permet de cacher des messages dans des images et de les récupérer ensuite. Voici les différentes fonctionnalités de cette classe :
 
 ## Création de la fenêtre principale
