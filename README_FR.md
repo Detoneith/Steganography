@@ -1,33 +1,40 @@
-# Steganography
+# Stéganographie
 
 ## Introduction
 Ce code Python implémente une application graphique simple utilisant les modules tkinter et ttkbootstrap pour la stéganographie. Il offre aux utilisateurs la possibilité d'encoder et de décoder les messages cachés dans une image.
 
-Ce code contient une classe Steganographie qui permet de cacher des messages dans des images et de les récupérer ensuite. Voici les différentes fonctionnalités de cette classe :
+## Exigences
+Ce code a été écrit avec Python 3.9. Il nécessite l'installation des modules Python suivants :
 
-## Création de la fenêtre principale
-Lorsque la classe est initialisée, elle crée une fenêtre principale et y ajoute différents éléments :
+- numpy
+- Pillow (PIL)
+- ttkbootstrap
+- tkinter
 
-- Un menu avec des options de fichiers et d'aide
-- Un formulaire d'entrée de texte
-- Un canevas pour afficher l'image
-- Des boutons pour encoder et décoder le message
+Pour installer ces modules, utilisez la commande suivante dans le terminal :
+- pip install numpy Pillow ttkbootstrap
+
+## Utilisation
+Pour lancer l'application, lancez simplement le fichier steganographie.py. Cela ouvrira une fenêtre d'interface graphique dans laquelle vous pourrez sélectionner une image, saisir un message à encoder ou à décoder et effectuer l'action correspondante à l'aide du bouton "Encoder" ou "Décoder".
 
 ## Menu
-Le menu permet d'effectuer différentes actions :
+Déposer:
+- Ouvrir : permet d'ouvrir un fichier image au format .jpg ou .png.
+- Enregistrer : Cela vous permet d'enregistrer l'image avec le message encodé sous forme de fichier .png ou .jpg.
+- Quitter : Cela vous permet de quitter l'application.
 
-- "Open" : ouvre une boîte de dialogue pour sélectionner une image à afficher
-- "Save" : sauvegarde l'image actuelle sur le disque dur
-- "Exit" : ferme la fenêtre
+Aider:
+- A propos : affiche des informations sur l'application.
 
-## Formulaire d'entrée de texte
-Le formulaire d'entrée de texte permet de saisir le message à cacher dans l'image. Il est initialisé avec le texte "Enter a message" qui est effacé lorsqu'on clique dessus.
+## Éléments de l'interface graphique
+**Saisie de message :** C'est ici que vous pouvez saisir le message à encoder ou à décoder.
 
-## Canevas
-Le canevas est utilisé pour afficher l'image sélectionnée. Lorsqu'on sélectionne une nouvelle image, elle est automatiquement redimensionnée pour tenir dans le canevas.
+**Canvas :** Ceci affiche le fichier image sélectionné.
 
-## Boutons
-Les boutons "Encode" et "Decode" permettent d'encoder et de décoder le message dans l'image. Lorsqu'on clique sur "Encode", le message est caché dans l'image et l'image modifiée est affichée sur le canevas. Lorsqu'on clique sur "Decode", le message caché dans l'image est affiché dans le formulaire d'entrée de texte.
+**Boutons:**
+
+- Encoder : Ceci encode le message saisi dans le fichier image sélectionné.
+- Décoder : Ceci décode le message caché dans le fichier image sélectionné.
 
 # Disclaimer
 **Cette application a été conçue à des fins éducatives uniquement. L'auteur ne tolère ni ne promeut l'utilisation de la stéganographie à des fins illégales ou contraires à l'éthique.**
