@@ -4,7 +4,7 @@
 This Python code implements a simple GUI application using the tkinter and ttkbootstrap modules for steganography. It provides users with the ability to encode and decode hidden messages in an image.
 
 ## Requirements
-This code was written using Python 3.9. It requires the following Python modules to be installed:
+This code was written using Python 3.11. It requires the following Python modules to be installed:
 
 - numpy
 - Pillow (PIL)
