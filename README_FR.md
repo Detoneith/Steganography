@@ -4,7 +4,7 @@
 Ce code Python implémente une application graphique simple utilisant les modules tkinter et ttkbootstrap pour la stéganographie. Il offre aux utilisateurs la possibilité d'encoder et de décoder les messages cachés dans une image.
 
 ## Exigences
-Ce code a été écrit avec Python 3.9. Il nécessite l'installation des modules Python suivants :
+Ce code a été écrit avec Python 3.11. Il nécessite l'installation des modules Python suivants :
 
 - numpy
 - Pillow (PIL)
